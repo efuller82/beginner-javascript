@@ -32,17 +32,43 @@
 // document.body.innerHTML = html;
 // console.log(html);
 
-const age = 100.5;
-const name = 'eric';
+// const age = 100.5;
+// const name = 'eric';
 
 // const a = 10;
 // const b = 20;
 
-const smarties = 20; 
-const kids = 3;
-const eachKidGets = Math.floor(smarties / kids);
-const dadGets = smarties % kids;
-console.log(`Each kid gets ${eachKidGets}`);
+// const smarties = 20; 
+// const kids = 3;
+// const eachKidGets = Math.floor(smarties / kids);
+// const dadGets = smarties % kids;
+// console.log(`Each kid gets ${eachKidGets}`);
 
-const price = 1034;
-console.log(price);
+// const price = 1034;
+// console.log(price);
+
+
+// const person = {
+//   first: 'eric',
+//   last: 'fuller',
+//   age: '100'
+// };
+
+
+// undefined
+// let dog;
+// console.log(dog);
+
+// let somethingUndefined;
+// const somethingNull = null;
+
+
+// boolean
+let isDrawing = false;
+let age = 18;
+age = 100;
+
+const ofAge = age > 19;
+
+console.log(ofAge);
+let age2 = 100;

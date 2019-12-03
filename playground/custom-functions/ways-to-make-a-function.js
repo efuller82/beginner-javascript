@@ -1,5 +1,5 @@
 // function doctorize(firstName) {
-//   return `Dr. ${firstName}`;
+//   return `Dr. $(firstName})`;
 // }
 
 // Anon Function
@@ -12,28 +12,29 @@
 //   return `Dr. ${firstName}`;
 // };
 
-/* eslint-disable */
-const inchToCM = inches => inches * 2.54;
+/*eslint-disable*/
+// Arrow Function
+// are anon function
+const inchesToCM = inches => inches * 2.54;
 
-// function add(a, b = 3) {
+// funtion add(a, b = 3) {
 //   const total = a + b;
 //   return total;
 // }
 
-// const add = (a, b = 3) => a + b;
+const add = (a, b=3) => total = a + b;
 
 // returning an object
 
 // function makeABaby(first, last) {
 //   const baby = {
 //     name: `${first} ${last}`,
-//     age: 0
+//     age: 2
 //   }
 //   return baby;
 // }
 
-const makeABaby = (first, last) => ({ name: `${first} ${last}`, age: 0 });
-
+const makeABaby =  (first, last) => ({ name: `${first} ${last}`, age: 2 });
 
 // IIFE
 // Immediately Invoked Function Expression
@@ -43,20 +44,20 @@ const makeABaby = (first, last) => ({ name: `${first} ${last}`, age: 0 });
 })(10);
 
 // Methods!!!
-const wes = {
-  name: 'Westopher Bos',
+const eric = {
+  name: 'Eric Fuller',
   // Method!
   sayHi: function() {
     console.log(`Hey ${this.name}`);
-    return 'Hey Wes';
+    return 'Hey Eric';
   },
-  // Short hand Method
+  // Shorthand Method
   yellHi() {
-    console.log('HEY WESSSSS');
+  console.log('Hey Ericcc');
   },
   // Arrow function
-  wisperHi: () => {
-    console.log('hii wesss im a mouse');
+  whisperHi: () => {
+    console.log('hii erriicc I a mouse');
   }
 }
 
@@ -65,14 +66,14 @@ const wes = {
 const button = document.querySelector('.clickMe');
 
 function handleClick() {
-  console.log('Great Clicking!!');
+  console.log('Great Clicking!');
 }
 
 button.addEventListener('click', function() {
-  console.log('NIce Job!!!');
+  console.log('Nice Job!!!');
 });
 
 // Timer Callback
-setTimeout(() => {
-  console.log('DONE! Time to eat!');
+setTimeout(function() {
+  console.log('done time to eat')
 }, 1000);
